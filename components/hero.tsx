@@ -36,11 +36,11 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "I'm NOT just Moonjo,  I'm ",
+    greeting: "I'm NOT just Moonjo but",
     name: "Super-Moonjo",
-    title: "감정평가사입니다~",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
-    profileImage: "/uploads/hero-profile-1762401389473.jpg",
+    title: "Korean certified appraiser",
+    description: "",
+    profileImage: "",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,

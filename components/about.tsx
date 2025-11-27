@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: "\"지역을 가장 잘 아는 평가사가 가장 정확한 평가를 합니다.\"",
     background: {"image":"","video":"","color":"#62b4f3","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"building","title":"㈜리얼티뱅크감정평가법인 경기남부지사","period":"2019 - 현재","description":"이사/감정평가사"},{"icon":"star","title":"경력 및 활동 내역","period":"現) 경기도 용인시 부동산가격공시위원","description":"위원"},{"icon":"star","title":" 경력 및 활동 내역","period":"現) (주)현대씨앤디(정비사업 전문관리업)","description":"자문역"},{"icon":"graduation","title":"단국대학교 부동산·건설대학원","period":"2025.03 ~ 재학중","description":"도시및부동산개발학과"}],
+    skills: [{"icon":"barChart","title":"일반거래평가","description":"세법상 시가 증빙 및 공정가액 확인 목적의 감정평가"},{"icon":"barChart","title":"공시가격평가","description":"국토교통부, 공공기관\t표준지(토지) 공시가격 결정 목적의 감정평가"},{"icon":"barChart","title":"경·공매평가","description":"법원, 공공기관\t최저매각가격 결정 목적의 감정평가"},{"icon":"lineChart","title":"보상평가","description":"사업시행자, 공공기관, 피수용자\t손실보상액 결정 목적의 감정평가"},{"icon":"lineChart","title":"도시정비평가","description":"정비조합, 공공기관 무상양수도, 종전자산, 종후자산, 손실보상 감정평가"},{"icon":"lineChart","title":"재무보고평가","description":"기업자산의 공정가치 결정 목적의 감정평가"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    story: ["저는 지역과 데이터를 동시에 읽는 감정평가사로서, 숫자 너머의 ‘현실 가치’를 기록해왔습니다.","원칙과 사실에 기반한 판단으로 개발·보상·정비 현장에서 일관된 평가 기준을 유지해왔습니다.","화려함보다 신뢰를, 속도보다 정밀을 선택하며 지역의 미래를 설계하는 평가를 지향합니다.","저의 평가는 단순한 가격이 아니라, 의사결정의 기준이 되는 근거가 됩니다."],
+    storyImage: "/uploads/about-image-1764230633685.jpg",
+    hobbies: ["🎬 영화 감상","🎵 음악 감상","🎪 공연 관람","📚 독서"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

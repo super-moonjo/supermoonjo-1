@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "I'm NOT just Moonjo but",
     name: "Super-Moonjo",
     title: "Korean certified appraiser",
-    description: "",
+    description: "현장과 데이터를 읽어 숫자 너머의 현실 가치를 기준으로 제시하는 감정평가사",
     profileImage: "/uploads/hero-profile-1764253580282.jpg",
     backgroundImage: "",
     backgroundVideo: "",

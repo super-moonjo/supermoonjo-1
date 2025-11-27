@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 3,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"#dd92ed","opacity":0.1},
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-1764254396060-1764254396623.png","video":"","title":"용인 플랫폼시티 가치창출 기반조성 평가사업","description":"프로젝트 목표:플랫폼시티 조성계획에 따른 토지의 시장가치 변화, 개발단계별 가치 상승폭, 수요 전망을 분석해 사업 시행계획의 적정성을 검증."},{"image":"","video":"","title":"기흥구 GTX-A 연계부지 보상 및 시장영향 분석사업","description":"프로젝트 목표:\nGTX-A 개통 예정지 인근 토지의 공익사업 보상평가, 역세권 형성에 따른 시장 파급효과 예측,\n보상금 산정의 공정성 확보."},{"image":"","video":"","title":"처인구 산업단지 신규조성 타당성 및 자산가치 추정사업","description":"프로젝트 목표:\n산업단지 조성 예정지의 사업성 분석, 조성 후 자산가치 산정 및 투자 타당성 검토."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

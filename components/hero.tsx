@@ -40,7 +40,7 @@ export function Hero() {
     name: "Super-Moonjo",
     title: "Korean certified appraiser",
     description: "",
-    profileImage: "",
+    profileImage: "/uploads/hero-profile-1764253580282.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,

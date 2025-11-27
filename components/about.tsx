@@ -103,7 +103,7 @@ export function About() {
     skills: [{"icon":"barChart","title":"일반거래평가","description":"세법상 시가 증빙 및 공정가액 확인 목적의 감정평가"},{"icon":"barChart","title":"공시가격평가","description":"국토교통부, 공공기관\t표준지(토지) 공시가격 결정 목적의 감정평가"},{"icon":"barChart","title":"경·공매평가","description":"법원, 공공기관\t최저매각가격 결정 목적의 감정평가"},{"icon":"lineChart","title":"보상평가","description":"사업시행자, 공공기관, 피수용자\t손실보상액 결정 목적의 감정평가"},{"icon":"lineChart","title":"도시정비평가","description":"정비조합, 공공기관 무상양수도, 종전자산, 종후자산, 손실보상 감정평가"},{"icon":"lineChart","title":"재무보고평가","description":"기업자산의 공정가치 결정 목적의 감정평가"}],
     storyTitle: "나의 이야기",
     story: ["저는 지역과 데이터를 동시에 읽는 감정평가사로서, 숫자 너머의 ‘현실 가치’를 기록해왔습니다.","원칙과 사실에 기반한 판단으로 개발·보상·정비 현장에서 일관된 평가 기준을 유지해왔습니다.","화려함보다 신뢰를, 속도보다 정밀을 선택하며 지역의 미래를 설계하는 평가를 지향합니다.","저의 평가는 단순한 가격이 아니라, 의사결정의 기준이 되는 근거가 됩니다."],
-    storyImage: "/uploads/about-image-1764230633685.jpg",
+    storyImage: "/uploads/about-image-1764254181532.jpg",
     hobbies: ["🎬 영화 감상","🎵 음악 감상","🎪 공연 관람","📚 독서"]
   }
   
